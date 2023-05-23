@@ -1,6 +1,6 @@
 import React from 'react';
 //images
-import Image from '../assets/slash2.png';
+import Image from '../assets/xisraeltech.gif';
 //icons
 import { FaGithub, Fayoutube, FaDribbble } from 'react-icons/fa';
 //type amimation
@@ -23,11 +23,11 @@ const Banner = () => {
           </div>
           <div className='mb-6 text-[36px] lg:text-[50px] font-secondary
           font-semibold uppercase leading-[1]'>
-            <span className='text-white mi-4'>I am a</span>
-            <TypeAnimation sequence={['Developer', 2000, 'Desing', 2000, 'Yotuber', 2000,]}
+            <span className='text-white mi-4'> I am a  </span>
+            <TypeAnimation sequence={['Developer', 2000, 'Desing', 2000, 'Freelance', 2000,]}
               speed={50} className='text-accent' wrapper='span' repeat={Infinity} />
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam deleniti ullam itaque id corrupti nihil aut magnam reiciendis dignissimos.</p>
+          <p>Hello, this is my work portfolio, contact me to carry out a project, I start and I have training in Alura courses, greetings.dis dignissimos.</p>
           <div>
             <button className='btn btn-lg'>Contact me</button>
             <a href="#"className='text-gradiente btn-link'>
